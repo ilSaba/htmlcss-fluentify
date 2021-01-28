@@ -4,16 +4,19 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Maven Pro', sans-serif;
+}
+
 header{
   background-color: #0C325A;
-  height: 80px;
   color: #fff;
 }
 
 .container{
   width: 85%;
   margin: 0 auto;
-  text-transform: uppercase;
+
 }
 
 .logo{
@@ -28,12 +31,14 @@ header{
   margin-top: 30px;
   margin-left: 25px;
   list-style-type: none;
+  text-transform: uppercase;
 }
 
 .menu-two ul li{
   float: right;
   margin-left: 25px;
   list-style-type: none;
+  text-transform: uppercase;
 }
 
 .tutor{
@@ -45,20 +50,130 @@ header{
   padding: 9px 30px;
   border-radius: 10px;
   margin-top: 20px;
+  text-transform: uppercase;
 }
 
 .plane{
-    background-color: #7BBB01;
-    border: none;
+  background-color: #7BBB01;
+  border: none;
+  color: #fff;
 }
 
 .bg-header{
-  margin-left: 500px;
+  margin-left: 700px;
+  margin-top: 100px;
   background-color: #0C325A;
 }
 
+.bg{
+  width: 100%;
+  background-color: #0C325A;
+}
 
-/* .container:after {
+.title{
+  color: #fff;
+  font-size: 60px;
+  position: absolute;
+  top: 400px;
+  left: 200px;
+}
+
+.but-two{
+  position: absolute;
+  top: 550px;
+  left: 200px;
+  list-style-type: none;
+  padding: 25px 20px;
+}
+
+.hr{
+  height: 1000px;
+  height: 225px;
+  background-color: #D3D3D3;
+  text-align: center;
+}
+
+.title-two{
+  padding-top: 65px;
+  font-size: 35px;
+}
+
+.subtitle{
+  padding-top: 15px;
+  font-size: 25px;
+  color: #7F8080;
+}
+
+.col-33{
+  float: left;
+  display: inline;
+  width: 33%;
+}
+
+.img{
+  height: 400px;
+  padding: 50px 200px;
+}
+
+.features{
+  color: #7CBB01;
+  text-align: center;
+  padding-right: 100px;
+  font-size: 30px;
+}
+
+.col-33 hr{
+  width: 160px;
+  margin: 50px 300px;
+}
+
+.descr{
+  width: 70%;
+  text-align: center;
+  color: #7F8080;
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 150px;
+  padding-bottom: 50px;
+}
+
+hr{
+  width: 100%;
+}
+
+.col-50{
+  width: 50%;
+  float: left;
+  padding-left: 300px;
+}
+
+.livel{
+  font-size: 40px;
+  padding-top: 100px;
+  line-height: 50px;
+}
+
+.mountain{
+  height: 800px;
+  padding-top: 50px;
+}
+
+.last-descr{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 20px;
+  color: #7F8080;
+  line-height: 30px;
+}
+
+.placement{
+  color: blue;
+  text-decoration: underline;
+
+}
+
+
+/* .row:after {
   display: table;
   content: "";
   clear: both;
